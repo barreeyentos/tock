@@ -25,8 +25,7 @@ public class GreetingServiceTest {
 
 	@Test
 	public void testMorning() {
-		LocalDateTime morningTime = LocalDateTime.of(2017, Month.SEPTEMBER, 17, 9, 30);
-		tock.setTime(morningTime);
+		tock.setTime(LocalDateTime.of(2017, Month.SEPTEMBER, 17, 9, 30));
 
 		Greeting greeting = service.createAppropriateGreeting();
 
@@ -35,8 +34,7 @@ public class GreetingServiceTest {
 
 	@Test
 	public void testNightOwl() {
-		LocalDateTime morningTime = LocalDateTime.of(2017, Month.SEPTEMBER, 17, 2, 30);
-		tock.setTime(morningTime);
+		tock.setTime(LocalDateTime.of(2017, Month.SEPTEMBER, 17, 2, 30));
 
 		Greeting greeting = service.createAppropriateGreeting();
 
@@ -45,8 +43,7 @@ public class GreetingServiceTest {
 
 	@Test
 	public void testAfternoon() {
-		LocalDateTime morningTime = LocalDateTime.of(2017, Month.SEPTEMBER, 17, 13, 30);
-		tock.setTime(morningTime);
+		tock.setTime(LocalDateTime.of(2017, Month.SEPTEMBER, 17, 13, 30));
 
 		Greeting greeting = service.createAppropriateGreeting();
 
@@ -55,8 +52,7 @@ public class GreetingServiceTest {
 
 	@Test
 	public void testNight() {
-		LocalDateTime morningTime = LocalDateTime.of(2017, Month.SEPTEMBER, 17, 21, 30);
-		tock.setTime(morningTime);
+		tock.setTime(LocalDateTime.of(2017, Month.SEPTEMBER, 17, 21, 30));
 
 		Greeting greeting = service.createAppropriateGreeting();
 

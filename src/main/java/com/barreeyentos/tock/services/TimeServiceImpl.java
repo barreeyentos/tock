@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("timeService")
 public class TimeServiceImpl implements TimeService {
 
 	public LocalDateTime now() {

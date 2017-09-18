@@ -4,6 +4,9 @@ public class Greeting {
 	private String greeting;
 	private String dateTime;
 
+	public Greeting() {
+	}
+
 	public Greeting(String greeting, String dateTime) {
 		this.setGreeting(greeting);
 		this.setDateTime(dateTime);
