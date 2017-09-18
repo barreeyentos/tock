@@ -25,13 +25,12 @@ repositories {
 	mavenCentral()
 }
 
-
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.springframework.boot:spring-boot-starter-web-services')
-	compile 'org.slf4j:slf4j-api:1.7.22'
     	compile 'ch.qos.logback:logback-core:1.1.9'
     	compile 'ch.qos.logback:logback-access:1.1.9'
+	compile 'org.springframework.boot:spring-boot-starter-web'
+	compile 'org.springframework.boot:spring-boot-starter-web-services'
+	compile 'org.slf4j:slf4j-api:1.7.22'
+    	
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
-
